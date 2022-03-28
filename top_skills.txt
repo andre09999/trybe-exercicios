@@ -1,8 +1,0 @@
-internet
-unix
-bash
-Ubuntu
-linux
-gnome
-kernel
-root
