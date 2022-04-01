@@ -1,0 +1,28 @@
+div:hover{
+    border: 3px solid rgba(0, 225, 255, 0.733);
+}
+.a {
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+    font-style: italic;
+}
+.b{
+    background-color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c{
+background-color: purple;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+height: 50px;
+font-style: italic;
+}
+.d{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+.e{
+    background-color: pink;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+}
