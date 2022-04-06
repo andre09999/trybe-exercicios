@@ -43,7 +43,7 @@ a:hover{
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.651);
     color: rgba(0, 0, 255, 0.438);
 }
-article{
+main{
     background-image: url(fotos/mergulho-oceano.jpg);
     background-size: cover
 }
