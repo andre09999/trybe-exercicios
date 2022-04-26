@@ -46,8 +46,8 @@ function feriados() {
     const novo = document.createElement("BUTTON")
     novo.className = 'buttons-container'
     novo.innerText = 'Feriados'
-    button.appendChild(novo)
-    fer.appendChild(button)
+    button.append(novo)
+    fer.append(button)
 }
 
 feriados()
