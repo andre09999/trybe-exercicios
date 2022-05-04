@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', Courier, monospace;
+      text-shadow: 2px 2px 5px black;
+      color: aliceblue;
+  }
+body{
+    display: flex;
+}
+  h1{
+      margin: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  header{
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+    height: 100px;
+    font-size: 1.4em;
+    color: rgb(66, 58, 48);
+    align-items:center ;
+    justify-content: center;
+    order: 1;
+  }
+  .container{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      background-color: rgba(0, 0, 0, 0.397);
+  }
+
+ li{
+      display: flex;
+      text-decoration: none;
+      margin-left: 10px;
+  }
+  header ul{
+      display: flex;
+      text-decoration: none;
+  }
+  header nav{
+      order: 1;
+  }
+  header p{
+      order: 2;
+      font-size: 14px;
+  }
+  .aside-one{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      order: 4;
+      font-size: 12px;
+     align-self: flex-start;
+ }
+
+  .aside-two{
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+      order: 3;
+      text-align: center;
+      align-self: flex-end;
+  }
+  .main-content{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      order: 2;
+  }
+  .main-content h1{
+      margin-bottom: 10px;
+  }
+  .main-content p{
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 4%;
+      margin-right: 4%;
+      color: aliceblue;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      text-shadow: 2px 2px 5px black;
+  }
+  aside{
+      display: flex;
+      flex-direction: row;
+  }
+  footer{
+      background-color: rgb(0, 0, 0);
+      color: white;
+      order: 5;
+      font-size: 10px;
+      padding-bottom: 5px;
+      text-align: justify;
+  }
