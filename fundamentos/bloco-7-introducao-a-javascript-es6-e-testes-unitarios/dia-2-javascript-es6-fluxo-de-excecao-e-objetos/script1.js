@@ -64,3 +64,15 @@ function verifica(objeto, key, value) {
   return igual
 }
 console.log(verifica(lesson3, 'turno', 'noite'))
+
+function alunosMath(obj) {
+  let tot = 0;
+  const key = Object.keys(obj)
+  for (i in key) {
+    if (obj[key[i]].materia === 'Matemática') {
+      tot += obj[key[i]].numeroEstudantes;
+    }
+  }
+  return tot;
+}
+console.log(alunosMath(junto))
