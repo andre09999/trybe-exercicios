@@ -1,0 +1,52 @@
+*{
+  margin:0;
+
+}
+.logo{
+  height: 50px;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  background-color:gray;
+  align-items: center;
+}
+h1{
+  text-align:center;
+}
+.menu{
+  display: flex;
+  gap: 30px;
+}
+.items{
+  list-style-type: none;
+}
+.navega{
+  text-decoration: none;
+  color:black;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height:845px;
+  align-items: center;
+  background-color: black;
+  color:white;
+}
+.cabeçalho{
+  margin-top: 50px;
+  
+}
+.texto-principal{
+  width:1000px;
+  text-align: center;
+  margin: auto;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:gray;
+  height:80px;
+}
