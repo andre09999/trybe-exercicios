@@ -1,0 +1,34 @@
+.principal{
+  text-align:center;
+  background-color:gray;
+  display:flex;
+  flex-direction:column;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.titulo{
+  color:white;
+}
+.card{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: baseline;
+}
+.poke{
+  background-color:aqua;
+  display: flex;
+  border: 1px solid black;
+  width: 350px;
+  border-radius: 20px;
+  justify-content: center;
+  gap: 10px;
+}
+.poke:hover{
+  border: 2.5px solid yellow;
+}
+.lista{
+  list-style: none;
+ 
+}
